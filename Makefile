@@ -7,7 +7,7 @@ DIR := $(shell echo $(shell cd "$(shell  dirname "${BASH_SOURCE[0]}" )" && pwd )
 UID_ := $(shell id -u)
 
 VERSION ?= latest
-IMAGE_NAME ?= bananafett/nginx-reverse-proxy
+IMAGE_NAME ?= ps1337/nginx-reverse-proxy
 CONTAINER_NAME ?= nginx-reverse-proxy
 
 # This will output the help for each task
